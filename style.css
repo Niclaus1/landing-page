@@ -1,71 +1,139 @@
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    margin: 0px;
     padding: 0px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    background-color: #171A21;
 }
 
+
+.ph-flag{
+    height: 50px;
+    width: 100px;
+}
 .header{
     display: flex;
-    border: 1px solid black;
     justify-content: space-between;
-    flex: 1;
-
+    align-items: center;
+    margin: 0px 100px 0px;
 }
 .links{
     display: flex;
-    gap: 5px;
+    color: whitesmoke;
+    gap: 10px;
 }
 
 .body1{
     display: flex;
-    border: 1px solid black;
     flex: 1;
+    background-color: #1b2838;
+    color: #F9FAF8 ;
+    padding: 100px;
 
-}
-.body1-text{
-    border: 1px solid blue;
 }
 
 .body2{
     display: flex;
-    border: 1px solid rgb(43, 173, 76);
     flex-direction: column;
     align-items: center;
+    text-align: center;
     flex: 1;
-
+    background-color: #3A5973;
+    padding-top: 10px;
+    padding-bottom: 100px;
 }
 .box-containers{
-    border: 1px solid rgb(228, 9, 38);
-    flex:1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
 }
+
+.img-park{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+    padding: 40px;
+}
+.text{
+    text-align: justify;
+    color: whitesmoke;
+}
+
 
 .body3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid rgb(228, 224, 9);
-    flex:1;
+    background-color: #1b2838;
+    padding: 100px;
+}
+.anon{
+    text-align: right;
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .body4{
     display: flex;
-    flex:1;
-    flex-grow: 0;
+    background-color: #3A5973;
+    padding: 100px;
+    margin: 150px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: whitesmoke;
 }
-.body4-text{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgb(34, 9, 9);
-    flex: 1;
+.button-nat-park{
+    padding: 10px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, yellow ,blue ,red);
+    font-size: 15px;
 }
-
 .body5{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(14, 113, 179);
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+
+a:link{
+    text-decoration: none;
+}
+
+.link-button{
+    border-radius: 25px;
+}
+
+.img-body1{
+    height: 400px;
+    width: 500px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 20px;
+    color: whitesmoke;
 }
