@@ -36,10 +36,6 @@ Screenshots
 
 Check out the live demo (here)(https://niclaus1.github.io/landing-page/).
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Author
 
 [Niclaus Rendon] - [https://github.com/Niclaus1]
