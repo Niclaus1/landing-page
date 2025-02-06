@@ -1,10 +1,10 @@
-#Landing Page Project
+# Landing Page Project
 
-##Overview
+## Overview
 
 This project showcases my ability to demonstrate the use of Flexbox in CSS, as well as integrating various elements such as links, images, and other file formats into an HTML document.
 
-##Features
+## Features
 
 Responsive Flexbox layout for structuring content.
 
@@ -14,13 +14,13 @@ Displaying images within the webpage.
 
 Integration of different file formats (e.g., PDFs, videos, and audio files) into HTML.
 
-##Technologies Used
+## Technologies Used
 
-###TML5
+### TML5
 
-###CSS3 (Flexbox)
+### CSS3 (Flexbox)
 
-##How to View the Project
+## How to View the Project
 
 Clone this repository:
 
@@ -32,14 +32,14 @@ Screenshots
 
 ![website-screenshot](./img/landing-page-screenshot.png)
 
-Live Demo
+## Live Demo
 
 Check out the live demo (here)(https://niclaus1.github.io/landing-page/).
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
-##Author
+## Author
 
 [Niclaus Rendon] - [https://github.com/Niclaus1]
