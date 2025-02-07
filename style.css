@@ -95,7 +95,6 @@ body{
 .body-4{
     display: flex;
     background-color: #3A5973;
-    /* padding: 100px; */
     border-radius: 20px;
     justify-content: center;
     align-items: center;
