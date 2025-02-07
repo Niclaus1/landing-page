@@ -16,19 +16,19 @@ Integration of different file formats (e.g., PDFs, videos, and audio files) into
 
 ## Technologies Used
 
-### TML5
+### HTML5
 
 ### CSS3 (Flexbox)
 
 ## How to View the Project
 
-Clone this repository:
+### Clone this repository:
 
 `git clone https://github.com/Niclaus1/landing-page.git`
 
 Open the index.html file in your browser.
 
-Screenshots
+### Screenshots
 
 ![website-screenshot](./img/landing-page-screenshot.png)
 
