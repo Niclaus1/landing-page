@@ -24,7 +24,7 @@ Integration of different file formats (e.g., PDFs, videos, and audio files) into
 
 Clone this repository:
 
-**git clone <repository-url>**
+`git clone https://github.com/Niclaus1/landing-page.git`
 
 Open the index.html file in your browser.
 
@@ -34,8 +34,8 @@ Screenshots
 
 ## Live Demo
 
-Check out the live demo (here)(https://niclaus1.github.io/landing-page/).
+Check out the live demo [here](https://niclaus1.github.io/landing-page/).
 
 ## Author
 
-[Niclaus Rendon] - [https://github.com/Niclaus1]
+[Niclaus Rendon](https://github.com/Niclaus1)
