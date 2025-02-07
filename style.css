@@ -4,18 +4,21 @@ body{
     padding: 0px;
     min-height: 100vh;
     background-color: #171A21;
+    display: flex;
+    flex-flow: column;
 }
 
 .ph-flag-header{
-    height: 50px;
-    width: 100px;
+    height: auto;
+    width: 50%;
+    max-width:100px;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 100px 0px;
     flex-shrink: 1;
+    padding: 10px 5%;
 }
 .header-links{
     display: flex;
@@ -27,7 +30,6 @@ body{
     display: flex;
     background-color: #1b2838;
     color: #F9FAF8 ;
-    padding: 100px;
 }
 
 .body-2{
@@ -44,7 +46,11 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap:wrap ;
     gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .img-park{
@@ -53,8 +59,9 @@ body{
     border-radius: 30px;
 }
 .img-text-container{
-    width: 300px;
-    height: 300px;
+    max-width: 400px;
+    height: auto;
+    flex: 1 1 300px;
 }
 .title-text{
     font-size: 30px;
@@ -73,7 +80,6 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #1b2838;
-    padding: 100px;
 }
 .quote-credit{
     text-align: right;
@@ -86,12 +92,12 @@ body{
     display: flex;
     background-color: #3A5973;
     padding: 100px;
-    margin: 150px;
     border-radius: 20px;
     justify-content: center;
     align-items: center;
     align-content: center;
     color: whitesmoke;
+    margin: 5vw;
 }
 .button-nat-park{
     padding: 10px;
@@ -109,8 +115,9 @@ body{
 }
 
 .img-body1{
-    height: 400px;
-    width: 500px;
+    height: auto;
+    width: 100%;
+    max-width: 500px;
 }
 
 h1{
@@ -122,4 +129,8 @@ h2{
     font-weight: 300;
     font-size: 20px;
     color: whitesmoke;
+}
+
+.body-1,.body-3,.body-4{
+    padding: 5vw;
 }
