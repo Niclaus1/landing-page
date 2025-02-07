@@ -6,7 +6,6 @@ body{
     background-color: #171A21;
 }
 
-
 .ph-flag-header{
     height: 50px;
     width: 100px;
@@ -16,6 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0px 100px 0px;
+    flex-shrink: 1;
 }
 .header-links{
     display: flex;
