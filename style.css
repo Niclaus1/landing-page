@@ -30,6 +30,8 @@ body{
     display: flex;
     background-color: #1b2838;
     color: #F9FAF8 ;
+    padding: 5vw;
+
 }
 
 .body-2{
@@ -80,6 +82,8 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #1b2838;
+    padding: 5vw;
+
 }
 .quote-credit{
     text-align: right;
@@ -91,13 +95,14 @@ body{
 .body-4{
     display: flex;
     background-color: #3A5973;
-    padding: 100px;
+    /* padding: 100px; */
     border-radius: 20px;
     justify-content: center;
     align-items: center;
     align-content: center;
     color: whitesmoke;
     margin: 5vw;
+    padding: 5vw;
 }
 .button-nat-park{
     padding: 10px;
@@ -128,8 +133,4 @@ h2{
     font-weight: 300;
     font-size: 20px;
     color: whitesmoke;
-}
-
-.body-1,.body-3,.body-4{
-    padding: 5vw;
 }
