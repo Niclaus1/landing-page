@@ -109,7 +109,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(14, 113, 179);
     color: aliceblue;
     padding: 10px;
 }
