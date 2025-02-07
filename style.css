@@ -3,13 +3,11 @@ body{
     margin: 0px;
     padding: 0px;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     background-color: #171A21;
 }
 
 
-.ph-flag{
+.ph-flag-header{
     height: 50px;
     width: 100px;
 }
@@ -19,22 +17,20 @@ body{
     align-items: center;
     margin: 0px 100px 0px;
 }
-.links{
+.header-links{
     display: flex;
     color: whitesmoke;
-    gap: 10px;
+    gap: 15px;
 }
 
-.body1{
+.body-1{
     display: flex;
-    flex: 1;
     background-color: #1b2838;
     color: #F9FAF8 ;
     padding: 100px;
-
 }
 
-.body2{
+.body-2{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,11 +52,11 @@ body{
     width: 200px;
     border-radius: 30px;
 }
-.box{
+.img-text-container{
     width: 300px;
     height: 300px;
 }
-.title{
+.title-text{
     font-size: 30px;
     font-weight: 700;
     color: whitesmoke;
@@ -72,21 +68,21 @@ body{
 }
 
 
-.body3{
+.body-3{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1b2838;
     padding: 100px;
 }
-.anon{
+.quote-credit{
     text-align: right;
     color: whitesmoke;
     font-size: 20px;
     font-style: italic;
 }
 
-.body4{
+.body-4{
     display: flex;
     background-color: #3A5973;
     padding: 100px;
@@ -103,23 +99,13 @@ body{
     background-image: linear-gradient(to right, yellow ,blue ,red);
     font-size: 15px;
 }
-.body5{
+.body-5{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(14, 113, 179);
     color: aliceblue;
     padding: 10px;
-}
-
-
-
-a:link{
-    text-decoration: none;
-}
-
-.link-button{
-    border-radius: 25px;
 }
 
 .img-body1{
